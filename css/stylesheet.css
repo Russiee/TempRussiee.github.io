@@ -1,8 +1,26 @@
 body {
-    margin: 10px auto;
-    max-width: 800px;
-    line-height: 1.6;
-    font-size: 24px;
-    color: #44444;
-    padding: 0 10px;
+    margin:    0 auto;
+    max-width: 960px;
+    color: #696969;
+    font-family: 'Lato', sans-serif;
+}
+
+#projectAnchor {
+    color: #696969;
+}
+
+.headerName {
+  text-align: right;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+}
+
+.headerDescription {
+  text-align: right;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+}
+
+hr {
+  border: 2px solid #696969;
 }
