@@ -19,6 +19,7 @@ body {
   text-align: right;
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
+  margin: 0;
 }
 
 hr {
