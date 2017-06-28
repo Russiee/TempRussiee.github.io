@@ -15,13 +15,93 @@ body {
   text-transform: uppercase;
 }
 
-.headerDescription {
+hr {
+  border: 2px solid #696969;
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+  background: #fff;
+  padding-top: 50px;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+html{overflow-x:hidden;}
+
+.socialMediaList {
+  list-style: none;
+  float: right;
   text-align: right;
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
   margin: 0;
 }
 
-hr {
-  border: 2px solid #696969;
+.socialMediaList li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.socialMediaList a {
+  color: #696969;
+}
+
+.aboutParagraph {
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+.skillsParagraph {
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+.prevWorkParagraph {
+  justify-content: center;
+  font-size: 1.2em;
 }
