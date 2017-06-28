@@ -13,3 +13,11 @@ $(document).on('click','.scrollTop',function(e) {
     scrollTop:(0)
   }, 500);
 });
+
+jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},3000);
+	});
+});
